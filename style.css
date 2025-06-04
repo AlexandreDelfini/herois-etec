@@ -1,0 +1,53 @@
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    width: 1000;
+    margin: 0%;
+}
+
+
+.container {
+    display: grid;
+    gap: 40px 50px;
+    grid-template-columns: 350px 350px 350px;
+    background-color: #f1f1f1;
+    margin: 40px 90px;
+    justify-content: center;
+}
+
+.container>div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+.produto4 {
+    grid-column: 1/ span 2;
+}
+
+img {
+    height: 200px;
+}
+
+.imgh {
+    width: 1300px;
+}
+
+.imgg {
+    height: 300px;
+    width: 745px;
+}
+
+footer {
+    background-color: rgb(21, 63, 21);
+    padding: 20px;
+    text-align: center;
+    width: 1300px;
+    justify-content: center;
+}
